@@ -6,16 +6,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    
 </head>
 <body>
     
-    <header class="header">
-        <div class="logo">
-            <img src="./Img/ЛОГО.png" alt="" class="logo__img">
-            <!--<img src="./Img/Group 3.png" alt="" class="logo__background"> -->
+    <header class="header" >
+        <div class="logo" >
+            <img  src="./Img/ЛОГО.png" alt="" class="logo__img">
+           
         </div>
+        <!-- <a href="#gallery" class="ancor-link"><img src="./Img/down-chevron.png" alt="" class="down-chevron"></a> -->
     </header>
-    <img src="./Img/1 Змія ОСНОВНА.png" alt="" class="snake">
+<div class="snake">
+        <img src="./Img/1 Змія ОСНОВНА.png" alt="" class="snake__img">
+</div>
     <div class="container" id="container">
         <main class="main">
             <div class="gallery" id="gallery">
@@ -131,10 +135,9 @@
             </div>
         </footer>
     </div>
+    <img src="./Img/2 ЗМІЯ ДОПОМІЖНА (1).png" class="second__snake" alt="">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.fog.min.js"></script>
-    
-    
     <script>
         VANTA.FOG({
             el: "body",
